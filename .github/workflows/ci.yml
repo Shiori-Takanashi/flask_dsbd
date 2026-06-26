@@ -44,7 +44,7 @@ jobs:
           mkdir -p .ci_cache/.pytest_reports
           uv run pytest \
             --junitxml=report.xml \
-            --cov=flask_dsbd \
+            --cov=src \
             --cov-report=xml:coverage.xml
 
       - name: Publish Test Report
