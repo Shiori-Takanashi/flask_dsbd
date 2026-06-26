@@ -1,0 +1,17 @@
+# Python Basic Ignore Target
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+venv
+
+# Enviroment
+.env
+.env.local
+
+.tree/
+.ci_cache/
+.memo/
